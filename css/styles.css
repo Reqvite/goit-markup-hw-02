@@ -1,0 +1,104 @@
+:root{
+--primary-text-color: #212121;
+--secondary-text-color: #757575 ;
+--accent-color: #2196F3;
+--primary-white-color: #FFFFFF;
+}
+
+
+                            /* Index html*/
+body {
+    background-color: var(--primary-white-color) ;
+    color: var(--primary-text-color) ;
+}
+
+ul{
+    list-style: none;
+}
+    /*button*/
+.button {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+.button.primary {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+.button.secondary {
+    color: var(--primary-text-color);
+    background-color: #F5F4FA;
+}
+
+.button.secondary:hover{
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
+
+    /*header*/
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current{
+    color: var(--accent-color);
+}
+
+.contacts .link:hover,
+.contacts .link:focus{
+    color: var(--accent-color);
+}
+    /*hero*/
+.hero-title{
+    color: var(--primary-white-color);
+    background-color: #2F303A;
+}
+
+    /*main*/
+.section-title{
+    color: var(--primary-text-color);
+}
+
+    /*features*/
+.features-title{
+    color: var(--primary-text-color);
+}
+.features-text{
+    color: var(--secondary-text-color);
+}
+
+    /*occupation*/
+
+    /*team*/
+
+.team-members{
+    color: var(--primary-text-color);
+}
+
+.team-position{
+    color: var(--secondary-text-color);
+}
+
+
+
+                        /*Portfolio html*/
+
+/* filter*/
+
+/*portfolio*/
+
+.portfolio-title{
+    color: var(--primary-text-color);
+}
+
+.portfolio-text{
+    color: var(--secondary-text-color);
+}
+
+
+/*#212121 цвет основного текста черный */
+/* #757575 вторичный цвет текста серый */
+/*  #FFFFFF белый; */
+/*  #2196F3 акцент  синий*/
