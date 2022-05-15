@@ -18,6 +18,11 @@ body {
 .list {
     list-style: none;
 }
+
+/*all links*/
+.link{
+    text-decoration: none;
+}
 /*----header----*/
  /*logo*/
 .logo-black{
@@ -25,8 +30,7 @@ body {
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.2px;
-    text-decoration: none;
+    line-height: 1.2;
 }
 
 .logo-white{
@@ -34,12 +38,7 @@ body {
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.2px;
-    text-decoration: none;
-}
-
-.logo-white:focus {
-
+    line-height: 1.2;
 }
 
 
@@ -52,9 +51,8 @@ body {
     color: var(--primary-text-color);
      font-weight: 500;
      font-size: 14px;
-     line-height: 1.14px;
+     line-height: 1.14;
      letter-spacing: 0.02em;
-     text-decoration: none;
 }
     
 .site-nav .link:hover,
@@ -71,7 +69,7 @@ body {
       text-decoration: none;
       font-weight: 500;
       font-size: 14px;
-     line-height: 16px;
+     line-height: 1.14;
       letter-spacing: 0.02em;
  }
     
@@ -88,20 +86,28 @@ body {
       
 .address-city {
     color: var(--primary-white-color);
-    
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+
 }
     
 .address-mail {
      color: rgba(255, 255, 255, 0.6);
-      text-decoration: none;
+     font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
  }
     
     .address-tel {
-        color: rgba(255, 255, 255, 0.6);
-         text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-size: 14px;
+     line-height: 1.71;
 }
     /*buttons*/
 .button {
+    font-family: inherit;
     color: var(--primary-white-color);
     background-color: var(--accent-color);
     cursor: pointer;
@@ -121,6 +127,10 @@ body {
 .button.secondary {
     color: var(--primary-text-color);
     background-color: #F5F4FA;
+    font-weight: 500;
+     font-size: 16px;
+     line-height: 1.62;
+    text-align: center;
 }
 
 .button.secondary:hover{
@@ -130,9 +140,6 @@ body {
    
  /* ----------------Index html*-----------------------*/
 
-
-
-
     /*hero*/
 
 .hero{
@@ -140,10 +147,9 @@ body {
 }
 .hero-title{
    color: var(--primary-white-color);
-    font-family: 'Roboto';
         font-weight: 900;
         font-size: 44px;
-        line-height: 1.36px;
+        line-height: 1.36;
         text-align: center;
         letter-spacing: 0.06em;
         text-transform: uppercase;
@@ -153,48 +159,70 @@ body {
     /*main*/
 .section-title{
     color: var(--primary-text-color);
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
 }
 
     /*features*/
 .features-title{
     color: var(--primary-text-color);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        text-transform: uppercase;
 }
 .features-text{
     color: var(--secondary-text-color);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
 }
 
     /*occupation*/
 
-.occupation-link:focus{
-
-}
 
     /*team*/
-
+.team-section{
+    background-color: #F5F4FA;;
+}
 .team-members{
     color: var(--primary-text-color);
+    font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.18;
+        text-align: center;
 }
 
 .team-position{
     color: var(--secondary-text-color);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.18;
+        text-align: center;
 }
 
 /*----------------------------Portfolio html-----------------------*/
 
-    /* filter*/
+    /* filter buttons*/
 
     /*portfolio*/
 
 .portfolio-title{
     color: var(--primary-text-color);
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
 }
 
 .portfolio-text{
     color: var(--secondary-text-color);
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.88;
 }
 
-
-/*#212121 цвет основного текста черный */
-/* #757575 вторичный цвет текста серый */
-/*  #FFFFFF белый; */
-/*  #2196F3 акцент  синий*/
