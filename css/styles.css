@@ -13,7 +13,7 @@ body {
     background-color: var(--primary-white-color);
     color: var(--primary-text-color);
     font-family: Roboto, sans-serif;
-    letter-spacing: 0.03em;
+    font-size: 14px;
 }
 
 /* all lists*/
@@ -36,6 +36,7 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
+    letter-spacing: 0.03em;
 }
 
 .logo-black {
@@ -51,7 +52,6 @@ body {
 .site-nav .link {
     color: var(--primary-text-color);
      font-weight: 500;
-     font-size: 14px;
      line-height: 1.14;
      letter-spacing: 0.02em;
 }
@@ -71,8 +71,7 @@ body {
       color: var(--secondary-text-color);
       text-decoration: none;
       font-weight: 500;
-      font-size: 14px;
-     line-height: 1.14;
+      line-height: 1.14;
       letter-spacing: 0.02em;
  }
     
@@ -85,18 +84,20 @@ body {
       
 .address-city {
     color: var(--primary-white-color);
+    font-style: normal;
         font-weight: 400;
-        font-size: 14px;
         line-height: 1.71;
+        letter-spacing: 0.03em;
 
 }
     
 .address-mail,
 .address-tel {
+    font-style: normal;
      color: var(--footer-address-color);
      font-weight: 400;
-    font-size: 14px;
     line-height: 1.71;
+    letter-spacing: 0.03em;
  }
  .address-mail:focus,
  .address-mail:hover,
@@ -123,16 +124,26 @@ body {
     letter-spacing: 0.06em;
 }
 
-.button.secondary {
+.button.secondary,
+.main-secondary {
     color: var(--primary-text-color);
     background-color: var(--button-bg-color);
     font-weight: 500;
      font-size: 16px;
      line-height: 1.62;
     text-align: center;
+    letter-spacing: 0.03em;
 }
 
-.button.secondary:hover{
+.button.primary:focus,
+.button.primary:hover{
+    color: var(--accent-color);
+    background-color: var(--primary-white-color);
+}
+.button.secondary:focus,
+.button.secondary:hover,
+.main-secondary:focus,
+.main-secondary:hover{
     color: var(--primary-white-color);
     background-color: var(--accent-color);
  
@@ -163,20 +174,21 @@ body {
         font-size: 36px;
         line-height: 1.16;
         text-align: center;
+        letter-spacing: 0.03em;
 }
 
     /*features*/
 .features-title{
         font-weight: 700;
-        font-size: 14px;
         line-height: 1.14;
         text-transform: uppercase;
+        letter-spacing: 0.03em;
 }
 .features-text{
     color: var(--secondary-text-color);
         font-weight: 400;
-        font-size: 14px;
         line-height: 1.71;
+        letter-spacing: 0.03em;
 }
 
     /*occupation*/
@@ -185,11 +197,15 @@ body {
 .team-section{
     background-color: var(--button-bg-color);;
 }
+.team li {
+    background-color: var(--primary-white-color);
+}
 .team-members{
         font-weight: 500;
         font-size: 16px;
         line-height: 1.18;
         text-align: center;
+        letter-spacing: 0.03em;
 }
 
 .team-position{
@@ -197,7 +213,9 @@ body {
         font-size: 16px;
         line-height: 1.18;
         text-align: center;
+        letter-spacing: 0.03em;
 }
+
 
 /*----------------------------Portfolio -----------------------*/
 
@@ -216,4 +234,5 @@ body {
     color: var(--secondary-text-color);
         font-size: 16px;
         line-height: 1.88;
+        letter-spacing: 0.03em;
 }
