@@ -6,6 +6,7 @@
 --button-bg-color: #F5F4FA;
 --secondary-bg-color: #2F303A;
 --footer-address-color: rgba(255, 255, 255, 0.6);
+--primary-buton-hover: #188CEF;
 }
 
 /*-----------------General*-----------------------*/
@@ -137,7 +138,7 @@ body {
 
 .button.primary:focus,
 .button.primary:hover{
-    color: var(--accent-color);
+    color: var(--primary-buton-hover);
     background-color: var(--primary-white-color);
 }
 .button.secondary:focus,
