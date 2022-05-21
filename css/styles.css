@@ -4,9 +4,9 @@
 --accent-color: #2196F3;
 --primary-white-color: #FFFFFF;
 --button-bg-color: #F5F4FA;
+--primary-button-hover: #188CEF;
 --secondary-bg-color: #2F303A;
 --footer-address-color: rgba(255, 255, 255, 0.6);
---primary-button-hover: #188CEF;
 }
 
 /*-----------------General*-----------------------*/
@@ -126,7 +126,7 @@ body {
 }
 
 .button.secondary,
-.main-secondary {
+.main-secondary-btn {
     color: var(--primary-text-color);
     background-color: var(--button-bg-color);
     font-weight: 500;
@@ -143,8 +143,8 @@ body {
 }
 .button.secondary:focus,
 .button.secondary:hover,
-.main-secondary:focus,
-.main-secondary:hover{
+.main-secondary-btn:focus,
+.main-secondary-btn:hover{
     color: var(--primary-white-color);
     background-color: var(--accent-color);
  
